@@ -405,12 +405,104 @@
                 Return New Abilities.Pixilate
             Case 183
                 Return New Abilities.Gooey
+            Case 184
+                Return New Abilities.Aerilate
+            Case 185
+                Return New Abilities.ParentalBond
             Case 186
                 Return New Abilities.DarkAura
             Case 187
                 Return New Abilities.FairyAura
             Case 188
                 Return New Abilities.AuraBreak
+            Case 189
+                Return New Abilities.PrimordialSea
+            Case 190
+                Return New Abilities.DesolateLand
+            Case 191
+                Return New Abilities.DeltaStream
+            Case 192
+                Return New Abilities.Stamina
+            Case 193
+                Return New Abilities.WimpOut
+            Case 194
+                Return New Abilities.EmergencyExit
+            Case 195
+                Return New Abilities.WaterCompaction
+            Case 196
+                Return New Abilities.Merciless
+            Case 197
+                Return New Abilities.ShieldsDown
+            Case 198
+                Return New Abilities.Stakeout
+            Case 199
+                Return New Abilities.WaterBubble
+            Case 200
+                Return New Abilities.Steelworker
+            Case 201
+                Return New Abilities.Berserk
+            Case 202
+                Return New Abilities.SlushRush
+            Case 203
+                Return New Abilities.LongReach
+            Case 204
+                Return New Abilities.LiquidVoice
+            Case 205
+                Return New Abilities.Triage
+            Case 206
+                Return New Abilities.Galvanize
+            Case 207
+                Return New Abilities.SurgeSurfer
+            Case 208
+                Return New Abilities.Schooling
+            Case 209
+                Return New Abilities.Disguise
+            Case 210
+                Return New Abilities.BattleBond
+            Case 211
+                Return New Abilities.PowerConstruct
+            Case 212
+                Return New Abilities.Corrosion
+            Case 213
+                Return New Abilities.Comatose
+            Case 214
+                Return New Abilities.QueenlyMajesty
+            Case 215
+                Return New Abilities.InnardsOut
+            Case 216
+                Return New Abilities.Dancer
+            Case 217
+                Return New Abilities.Battery
+            Case 218
+                Return New Abilities.Fluffy
+            Case 219
+                Return New Abilities.Dazzling
+            Case 220
+                Return New Abilities.SoulHeart
+            Case 221
+                Return New Abilities.TanglingHair
+            Case 222
+                Return New Abilities.Receiver
+            Case 223
+                Return New Abilities.PowerofAlchemy
+            Case 224
+                Return New Abilities.BeastBoost
+            Case 225
+                Return New Abilities.RKSSystem
+            Case 226
+                Return New Abilities.ElectricSurge
+            Case 227
+                Return New Abilities.PsychicSurge
+            Case 228
+                Return New Abilities.MistySurge
+            Case 229
+                Return New Abilities.GrassySurge
+            Case 230
+                Return New Abilities.FullMetalBody
+            Case 231
+                Return New Abilities.ShadowShield
+            Case 232
+                Return New Abilities.PrismArmor
             Case Else
                 Return New Abilities.Stench
         End Select

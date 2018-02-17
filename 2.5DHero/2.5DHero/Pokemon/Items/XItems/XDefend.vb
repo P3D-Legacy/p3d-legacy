@@ -6,7 +6,7 @@ Namespace Items.XItems
         Inherits XItem
 
         Public Overrides ReadOnly Property PokeDollarPrice As Integer = 550
-        Public Overrides ReadOnly Property Description As String = "An item that boosts the Defense stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn."
+        Public Overrides ReadOnly Property Description As String = "An item that sharply boosts the Defense stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn."
 
         Public Sub New()
             _textureRectangle = New Rectangle(96, 48, 24, 24)
@@ -27,10 +27,10 @@ Namespace Items.XItems
                 Dim p As Pokemon = CType(s, BattleSystem.BattleScreen).OwnPokemon
 
                 If p.StatDefense < 6 Then
-                    p.StatDefense += 1
+                    p.StatDefense += 2
 
                     Screen.TextBox.Show("Boosted " & p.GetDisplayName() & "'s~Defense!" & RemoveItem(), {}, False, False)
-                    PlayerStatistics.Track("[53]Status booster used", 1)
+                    PlayerStatistics.Track("[53]Status booster used", 2)
 
                     Return True
                 End If

@@ -1,11 +1,11 @@
 Namespace Abilities
 
-    Public Class ArenaTrap
+    Public Class Stamina
 
         Inherits Ability
 
         Public Sub New()
-            MyBase.New(71, "Arena Trap", "Prevents opposing Pokémon from fleeing.")
+            MyBase.New(192, "Stamina", "Boosts the Defense stat when hit by an attack.")
         End Sub
 
     End Class
