@@ -1,4 +1,6 @@
-﻿Imports System.Windows.Forms
+﻿Imports System.Globalization
+Imports System.Threading
+Imports System.Windows.Forms
 Imports GameDevCommon
 
 Public Class Classified
@@ -79,6 +81,13 @@ Public Class GameController
         GameHacked = System.IO.File.Exists(My.Computer.FileSystem.SpecialDirectories.CurrentUserApplicationData & "\temp")
         If GameHacked = True Then
             Security.HackerAlerts.Activate()
+        End If
+
+        ' This is a nice workaround for turkish users because it is already annoying enough to force them to change system language...
+        If CultureInfo.CurrentCulture.EnglishName = "Turkish" Then
+            CultureInfo.CurrentCulture = New CultureInfo("en-US")
+            CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator = ","
+            CultureInfo.CurrentCulture.NumberFormat.NumberGroupSeparator = "."
         End If
 
         _componentManager = New ComponentManager()
